@@ -1,0 +1,7 @@
+service: yahoo # google, yahoo, openexchangerates, currencylayer, ecb, fixer
+from: USD
+to: DKK
+action: print halt notify
+notify_below: 6.6
+notify_above: 7.0
+app_id: 0123456789abcdef
